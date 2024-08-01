@@ -1,0 +1,11 @@
+<h3 class="font-bold text-lg m-2">
+  <tg:slot name="title"></tg:slot>
+</h3>
+<div class="m-4">
+  <tg:slot name="body"></tg:slot>
+</div>
+<tg:if-complete>
+  <div class="text-right">
+    <tg:slot name="date"></tg:slot>
+  </div>
+</tg:if-complete>

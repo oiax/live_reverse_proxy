@@ -1,3 +1,9 @@
-<body>
-  <p class="p-2 text-red-500">Hello, world!</p>
-</body>
+<main class="bg-gray-100 py-2">
+  <tg:shared-component name="blog_item">
+    <tg:insert name="title">Greeting</tg:insert>
+    <tg:insert name="body">
+      <p>Hello.</p>
+    </tg:insert>
+    <tg:insert name="date">2022-12-31</tg:insert>
+  </tg:shared-component>
+</main>
